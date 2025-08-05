@@ -6,16 +6,50 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CustomerCardHero
+	title="Land elite AI roles with 60% salary increases"
+	subtitle="Join thousands of AI engineers and data scientists who've leveraged our AI talent prediction models to secure top-tier remote opportunities at Silicon Valley startups."
+	centered={true}
+	customers={[
+		{
+			name: "Sarah Chen",
+			position: "ML Engineer at Anthropic",
+			imageSrc: "/generated/image-a-professional-female-engineer-in-a-mode.webp"
+		},
+		{
+			name: "Marcus Rodriguez",
+			position: "Data Scientist at OpenAI",
+			imageSrc: "/generated/image-a-professional-male-scientist-in-a-clean.webp"
+		},
+		{
+			name: "Emily Thompson",
+			position: "AI Researcher at Google",
+			imageSrc: "/generated/image-a-professional-female-specialist-in-a-te.webp"
+		},
+		{
+			name: "David Kim",
+			position: "Senior Engineer at Stripe",
+			imageSrc: "/generated/image-a-professional-male-researcher-in-a-mode.webp"
+		},
+		{
+			name: "Jessica Park",
+			position: "Technical Lead at Meta",
+			imageSrc: "/generated/image-a-professional-female-software-engineer-.webp"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://cdn.brandfetch.io/openai.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/anthropic.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/huggingface.co/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/databricks.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
