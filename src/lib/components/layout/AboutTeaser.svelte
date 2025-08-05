@@ -21,9 +21,9 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Alex Morgan",
-		role: "Founder & CEO",
-		image: "https://www.unc.mn/image-placeholder.svg"
+		name: "Co-Founders",
+		role: "21-year-old Thiel Fellows",
+		image: "/generated/image-a-young-professional-founder-in-a-modern.webp"
 	};
 </script>
 
@@ -32,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"We were tired of watching brilliant AI engineers waste months applying to hundreds of companies individually. So at 21, we built the world's best AI talent prediction model and turned recruiting upside down. Now we've paid out $50 million to talent and built a $2 billion company that's transforming careers globally."`}
 			/>
 
 			<!-- Team Member & CTA Section -->

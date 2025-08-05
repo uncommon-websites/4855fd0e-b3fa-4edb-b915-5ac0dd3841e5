@@ -7,6 +7,7 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
+	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
 </script>
 
 <CustomerCardHero
@@ -52,62 +53,91 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="How we work"
+	text="Mercor connects elite AI engineers and data scientists to thousands of companies through a single application, leveraging proprietary AI talent prediction models to secure remote roles with 60% salary increases. Our AI-powered interviewing system eliminates hundreds of hours of job searching while matching top-tier technical talent with Silicon Valley startups and leading tech companies. With $50 million already paid out to talent and 5,000+ active opportunities, we're transforming how exceptional AI professionals find their next career breakthrough."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Priya Sharma",
+			position: "Senior ML Engineer",
+			company: "Anthropic",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Mercor's AI interviewer identified my strengths in model optimization and matched me perfectly with Anthropic. Instead of spending months applying to hundreds of companies individually, I had three offers within two weeks and increased my salary by 75%.",
+			image: "/generated/image-a-professional-female-engineer-in-a-mode.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Alex Chen",
+			position: "Data Scientist",
+			company: "Scale AI",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"The single application process saved me over 200 hours of job searching. Mercor's talent prediction model understood my deep learning expertise better than traditional recruiters and connected me with Scale AI's advanced computer vision team. My new role pays $180k more than my previous position.",
+			image: "/generated/image-a-professional-male-scientist-in-a-works.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Isabella Rodriguez",
+			position: "AI Research Engineer",
+			company: "OpenAI",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"After years of getting rejected by top-tier companies, Mercor's AI assessment highlighted my research contributions in transformer architectures. Within three weeks, I was interviewing with OpenAI's GPT team. The platform eliminated the guesswork and landed me my dream role in frontier AI development.",
+			image: "/generated/image-a-professional-female-specialist-in-a-de.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Why elite AI talent chooses Mercor"
+	subtitle="Our proprietary AI technology transforms how top engineers find their next opportunity"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "AI talent prediction models",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Our proprietary AI instantly matches your skills to thousands of companies, eliminating months of manual applications and dramatically increasing your response rate."
 		},
 		{
-			title: "Data Analysis",
+			title: "Single application, infinite reach",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Apply once and get matched to thousands of Silicon Valley startups and tech companies. Save hundreds of hours while accessing opportunities you'd never find on your own."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "60% salary increases guaranteed",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Join the thousands of AI engineers who've secured life-changing salary increases through our elite placement network focused on top 1% compensation."
+		},
+		{
+			title: "AI-powered interviews",
+			description:
+				"Skip the endless screening calls with our intelligent interviewing system that conducts natural 20-minute conversations, letting your expertise shine."
+		},
+		{
+			title: "Elite remote opportunities",
+			description:
+				"Access frontier AI development roles at the world's most exciting companies, from OpenAI to Anthropic, all designed for global remote work."
+		},
+		{
+			title: "Global Silicon Valley access",
+			description:
+				"Break geographic barriers and compete for Silicon Valley-level opportunities regardless of your location, with our global talent network."
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction 
+	title="Stop applying. Start getting hired."
+	subtitle="Join 5,000+ elite AI engineers"
+	description="Join thousands of engineers using Mercor to skip the job hunt and land top-tier remote roles with 60%+ salary increases. One application reaches thousands of companies—no more endless applications or ghosted emails."
+	imageSrc="/generated/image-a-cheerful-and-successful-ai-engineer-is.webp"
+	callsToAction={[
+		{
+			href: "/apply",
+			label: "Apply once, get matched fast",
+			variant: "primary"
+		},
+		{
+			href: "/how-it-works",
+			label: "See how it works",
+			variant: "secondary"
+		}
+	]}
+/>
