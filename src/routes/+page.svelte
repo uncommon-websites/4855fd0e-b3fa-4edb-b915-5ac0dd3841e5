@@ -10,12 +10,30 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	centered={false}
+	title="One application. Thousands of elite remote opportunities."
+	subtitle="Let AI match you to your next career breakthrough while you focus on what matters."
+	imageSrc="/generated/image-a-senior-professional-developer-absorbed.webp"
+	callsToAction={[
+		{
+			href: "/apply",
+			label: "Start your application"
+		},
+		{
+			href: "/opportunities",
+			label: "View opportunities"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Connecting talent with leading companies"
+	logoUrls={[
+		'https://cdn.brandfetch.io/anthropic.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/openai.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/stripe.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/notion.so/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
