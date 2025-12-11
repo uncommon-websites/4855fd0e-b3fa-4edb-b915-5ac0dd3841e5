@@ -13,7 +13,13 @@
 </script>
 
 <header class="fixed top-0 left-0 w-full z-50 px-5 py-6 md:px-10 md:py-8 flex justify-between items-start bg-white/90 backdrop-blur-sm transition-all duration-300 text-black">
-  <a href="/" class="text-xl md:text-2xl font-normal tracking-wide z-10">Snøhetta</a>
+  <a href="/" class="flex items-center gap-3 z-10 hover:opacity-70 transition-opacity">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="4" y="4" width="11" height="11" rx="2" fill="currentColor" />
+      <rect x="9" y="9.5" width="10" height="10" rx="2" fill="currentColor" fill-opacity="0.24" />
+    </svg>
+    <span class="text-xl md:text-2xl font-normal tracking-wide">Mercor</span>
+  </a>
   
   <button class="absolute left-1/2 -translate-x-1/2 top-6 md:top-8 text-lg font-normal hover:opacity-70 transition-opacity z-10">
     Menu
