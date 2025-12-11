@@ -56,7 +56,7 @@
 
 <Header />
 
-<main class="pt-32 pb-20 px-5 md:px-10 font-sans text-black selection:bg-gray-200 bg-[#faf9f7]">
+<main class="pt-32 pb-20 px-5 md:px-10 font-sans text-black selection:bg-gray-200 bg-[#f5f3ef]">
   
   <!-- Hero Headline -->
   <div class="mb-20 md:mb-32 max-w-5xl">
